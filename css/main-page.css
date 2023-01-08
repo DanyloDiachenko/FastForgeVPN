@@ -1,0 +1,52 @@
+.main-bg {
+    background-image: url(../images/background/bg-main.svg);
+}
+
+.active {
+    border-bottom: 2px solid #243141;
+}
+
+.body-lg-regular > span {
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.bg-early-access {
+    width: 100%;
+    height: 469px;
+    background-image: url("../images/background/early-access-1.svg"), url("../images/background/early-access-2.svg"), linear-gradient(39.53deg, #01D088 -6.85%, #00D5F0 114.25%);
+    background-position: bottom left, top right;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+}
+
+.icon-play {
+    border-radius: 1.33333e+07px;
+}
+
+@media(max-width: 1280px) {
+    .bg-early-access {
+        padding: 40px 24px 40px 24px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .main-bg {
+        background-image: none;
+    }
+
+    .bg-early-access {
+        background-image: linear-gradient(39.53deg, #01D088 -6.85%, #00D5F0 114.25%);
+        height: 100%;
+    }
+}
+
+@media(max-width: 640px) {
+    #btn-enterprise-edition, #btn-raw-edition {
+        width: 100%;
+    }
+
+    .bg-early-access {
+        border-radius: 0;
+    }
+}

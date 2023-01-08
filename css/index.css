@@ -1,0 +1,75 @@
+/* Typography */
+
+@import url("./typography.css");
+
+/* Tailwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+
+/* Desktop-laptop Fonts */
+
+    .h1-lg {
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 73px;
+        text-transform: capitalize;
+    }
+
+    .h2-lg {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 56px;
+        text-transform: capitalize;
+    }
+
+    .h3-lg {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: capitalize;
+    }
+
+    .heading {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .heading-lg {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    /* Mobile Fonts */
+
+    .h1-sm {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 50px;
+        text-transform: capitalize;
+    }
+
+    .h2-sm {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .h3-sm {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .body-small {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

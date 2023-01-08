@@ -1,0 +1,28 @@
+.plan-item {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(103, 103, 103, 0.07);
+    border-radius: 16px;
+}
+
+.pricing-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.plan-item-black {
+    background: var(--gray);
+    box-shadow: 0px 0px 50px rgba(103, 103, 103, 0.07);
+    border-radius: 16px;
+}
+
+.pricing-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 100%;
+    cursor: pointer;
+}
