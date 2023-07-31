@@ -1,6 +1,6 @@
 stage: ready
 
-* No hover-effects, no JavaScript, no logic, no routing. Only HTML + CSS *
+** No hover-effects, no JavaScript, no logic, no routing. Only HTML + CSS **
 
 # FastForgeVPN
 
