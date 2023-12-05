@@ -9,7 +9,7 @@ stage: ready
 - HTML 5;
 - CSS 3;
 
-Page-links: 
+### Page-links: 
 - https://danylodiachenko.github.io/FastForgeVPN/main-page.html
 - https://danylodiachenko.github.io/FastForgeVPN/contact.html
 - https://danylodiachenko.github.io/FastForgeVPN/platform-sase.html
